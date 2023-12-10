@@ -165,11 +165,44 @@ div.content {
   div.content {
     margin-left: 0;
   }
+  .colMobLogo{
+    width: 30% !important;
+  }
+  .colMobContent{
+    width: 70% !important;
+  }
+
+
 }
 
 @media screen and (max-width: 400px) {
   .sidebar a {
     text-align: center;
     float: none;
+  }
+
+  .colMobLogo{
+    width: 30% !important;
+  }
+  .colMobContent{
+    width: 70% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+
+  .colMobLogo{
+    width: 30% !important;
+  }
+  .colMobContent{
+    width: 70% !important;
+  }
+
+  .cardWidth{
+    width: 55% !important;
   }
 }

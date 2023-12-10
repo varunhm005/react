@@ -74,7 +74,7 @@ export default function NoteDetails() {
             <h5 className="myNote-Head"><i className="fa fa-file-text" aria-hidden="true"></i>  <span className="ml-2" >My Notes</span></h5>
             <p className="text-muted smallFont">Recently viewed</p>
             <div className="row row-cols-1 row-cols-md-4">
-              <div className="col mb-4">
+              <div className="col mb-4 cardWidth">
                 <div className="card h-100 cardBorder">
                   <div className="card-body">
                     <div className="row">

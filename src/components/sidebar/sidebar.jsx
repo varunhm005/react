@@ -12,10 +12,10 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 col-sm-4 colMobLogo">
               <img className="profileImage" src={profileImage} alt=""></img>
             </div>
-            <div className="col-md-8">
+            <div className="col-md-8 col-sm-8 colMobContent">
               <div className="personName">John Doe</div>
               <div className="personEmail">johndoe@gmail.com</div>
             </div>
